@@ -1,0 +1,593 @@
+{
+    "isStage": false,
+    "name": "Sprite1",
+    "variables": {},
+    "lists": {},
+    "broadcasts": {},
+    "blocks": {
+        "A#0=I1r[wwnrPHb43}+$": {
+            "opcode": "argument_reporter_string_number",
+            "next": null,
+            "parent": "i",
+            "inputs": {},
+            "fields": {
+                "VALUE": [
+                    "number or text",
+                    "~T`CBx)KVDaq3kD~US^b"
+                ]
+            },
+            "shadow": true,
+            "topLevel": false
+        },
+        "k": {
+            "opcode": "event_whenflagclicked",
+            "next": "b",
+            "parent": null,
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 158,
+            "y": 329
+        },
+        "b": {
+            "opcode": "data_setvariableto",
+            "next": "c",
+            "parent": "k",
+            "inputs": {
+                "VALUE": [
+                    3,
+                    "l",
+                    [
+                        10,
+                        "0"
+                    ]
+                ]
+            },
+            "fields": {
+                "VARIABLE": [
+                    "Costume 1",
+                    "Sl.%xu,_|=~qJ++}*WmO"
+                ]
+            },
+            "shadow": false,
+            "topLevel": false
+        },
+        "l": {
+            "opcode": "jgPrism_dataUriOfCostume",
+            "next": null,
+            "parent": "b",
+            "inputs": {
+                "INDEX": [
+                    1,
+                    [
+                        4,
+                        "1"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "c": {
+            "opcode": "data_setvariableto",
+            "next": "d",
+            "parent": "b",
+            "inputs": {
+                "VALUE": [
+                    3,
+                    "m",
+                    [
+                        10,
+                        "0"
+                    ]
+                ]
+            },
+            "fields": {
+                "VARIABLE": [
+                    "Costume 2",
+                    ",fea}PWh8wA,jpe]3H_b"
+                ]
+            },
+            "shadow": false,
+            "topLevel": false
+        },
+        "m": {
+            "opcode": "jgPrism_dataUriOfCostume",
+            "next": null,
+            "parent": "c",
+            "inputs": {
+                "INDEX": [
+                    1,
+                    [
+                        4,
+                        "2"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "d": {
+            "opcode": "looks_switchcostumeto",
+            "next": "e",
+            "parent": "c",
+            "inputs": {
+                "COSTUME": [
+                    1,
+                    "n"
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "n": {
+            "opcode": "looks_costume",
+            "next": null,
+            "parent": "d",
+            "inputs": {},
+            "fields": {
+                "COSTUME": [
+                    "costume2",
+                    "TkF7)3OX]s5y%Rd~/rdm"
+                ]
+            },
+            "shadow": true,
+            "topLevel": false
+        },
+        "e": {
+            "opcode": "control_for_each",
+            "next": "p",
+            "parent": "d",
+            "inputs": {
+                "VALUE": [
+                    1,
+                    [
+                        6,
+                        "19"
+                    ]
+                ],
+                "SUBSTACK": [
+                    2,
+                    "f"
+                ]
+            },
+            "fields": {
+                "VARIABLE": [
+                    "j",
+                    "PcpUI;h)YIatxl*d-Y}j"
+                ]
+            },
+            "shadow": false,
+            "topLevel": false
+        },
+        "f": {
+            "opcode": "pen_clear",
+            "next": "o",
+            "parent": "e",
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "o": {
+            "opcode": "procedures_call",
+            "next": null,
+            "parent": "f",
+            "inputs": {
+                "?:uWez1$6:7p6C0E*%ae": [
+                    3,
+                    [
+                        12,
+                        "j",
+                        "PcpUI;h)YIatxl*d-Y}j"
+                    ],
+                    [
+                        10,
+                        ""
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false,
+            "mutation": {
+                "tagName": "mutation",
+                "children": [],
+                "proccode": "Fram e %s",
+                "argumentids": "[\"?:uWez1$6:7p6C0E*%ae\"]",
+                "warp": "true",
+                "returns": "null",
+                "edited": "true",
+                "optype": "null"
+            }
+        },
+        "p": {
+            "opcode": "pen_clear",
+            "next": null,
+            "parent": "e",
+            "inputs": {},
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "v": {
+            "opcode": "operator_divide",
+            "next": null,
+            "parent": null,
+            "inputs": {
+                "NUM1": [
+                    1,
+                    [
+                        4,
+                        "240"
+                    ]
+                ],
+                "NUM2": [
+                    1,
+                    [
+                        4,
+                        "50"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 1088,
+            "y": 797
+        },
+        "w": {
+            "opcode": "operator_divide",
+            "next": null,
+            "parent": null,
+            "inputs": {
+                "NUM1": [
+                    1,
+                    [
+                        4,
+                        "240"
+                    ]
+                ],
+                "NUM2": [
+                    1,
+                    [
+                        4,
+                        "50"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 480,
+            "y": 773
+        },
+        "g": {
+            "opcode": "procedures_definition",
+            "next": "h",
+            "parent": null,
+            "inputs": {
+                "custom_block": [
+                    1,
+                    "i"
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": true,
+            "x": 610,
+            "y": 223
+        },
+        "i": {
+            "opcode": "procedures_prototype",
+            "next": null,
+            "parent": "g",
+            "inputs": {
+                "?:uWez1$6:7p6C0E*%ae": [
+                    1,
+                    "tW~/!edU+ziO`My)5V.V"
+                ]
+            },
+            "fields": {},
+            "shadow": true,
+            "topLevel": false,
+            "mutation": {
+                "tagName": "mutation",
+                "children": [],
+                "proccode": "Fram e %s",
+                "argumentids": "[\"?:uWez1$6:7p6C0E*%ae\"]",
+                "argumentnames": "[\"number or text\"]",
+                "argumentdefaults": "[\"\"]",
+                "warp": "true",
+                "returns": "null",
+                "edited": "true",
+                "optype": "null"
+            }
+        },
+        "tW~/!edU+ziO`My)5V.V": {
+            "opcode": "argument_reporter_string_number",
+            "next": null,
+            "parent": "i",
+            "inputs": {},
+            "fields": {
+                "VALUE": [
+                    "number or text",
+                    "-iAhsj/Ub1T(LZ+a3CyD"
+                ]
+            },
+            "shadow": true,
+            "topLevel": false
+        },
+        "h": {
+            "opcode": "control_for_each",
+            "next": null,
+            "parent": "g",
+            "inputs": {
+                "VALUE": [
+                    1,
+                    [
+                        6,
+                        "24"
+                    ]
+                ],
+                "SUBSTACK": [
+                    2,
+                    "a"
+                ]
+            },
+            "fields": {
+                "VARIABLE": [
+                    "i",
+                    "^qA,K!vhiB~$Gi+0i?VQ"
+                ]
+            },
+            "shadow": false,
+            "topLevel": false
+        },
+        "a": {
+            "opcode": "pen_drawUriImageWHCX1Y1X2Y2R",
+            "next": null,
+            "parent": "h",
+            "inputs": {
+                "URI": [
+                    3,
+                    [
+                        12,
+                        "Costume 1",
+                        "Sl.%xu,_|=~qJ++}*WmO"
+                    ],
+                    [
+                        10,
+                        "data:image/png;base64,"
+                    ]
+                ],
+                "X": [
+                    3,
+                    "r",
+                    [
+                        4,
+                        "0"
+                    ]
+                ],
+                "Y": [
+                    1,
+                    [
+                        4,
+                        "0"
+                    ]
+                ],
+                "WIDTH": [
+                    3,
+                    "j",
+                    [
+                        4,
+                        "20"
+                    ]
+                ],
+                "HEIGHT": [
+                    1,
+                    [
+                        4,
+                        "360"
+                    ]
+                ],
+                "CROPX": [
+                    3,
+                    "s",
+                    [
+                        4,
+                        "0"
+                    ]
+                ],
+                "CROPY": [
+                    1,
+                    [
+                        4,
+                        "0"
+                    ]
+                ],
+                "CROPW": [
+                    1,
+                    [
+                        4,
+                        "40"
+                    ]
+                ],
+                "CROPH": [
+                    3,
+                    "t",
+                    [
+                        4,
+                        "360"
+                    ]
+                ],
+                "ROTATE": [
+                    1,
+                    [
+                        8,
+                        "90"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "r": {
+            "opcode": "operator_multiply",
+            "next": null,
+            "parent": "a",
+            "inputs": {
+                "NUM1": [
+                    3,
+                    [
+                        12,
+                        "i",
+                        "^qA,K!vhiB~$Gi+0i?VQ"
+                    ],
+                    [
+                        4,
+                        ""
+                    ]
+                ],
+                "NUM2": [
+                    1,
+                    [
+                        4,
+                        "20"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "j": {
+            "opcode": "operator_subtract",
+            "next": null,
+            "parent": "a",
+            "inputs": {
+                "NUM1": [
+                    1,
+                    [
+                        4,
+                        "20"
+                    ]
+                ],
+                "NUM2": [
+                    3,
+                    "u",
+                    [
+                        4,
+                        ""
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "u": {
+            "opcode": "argument_reporter_string_number",
+            "next": null,
+            "parent": "j",
+            "inputs": {},
+            "fields": {
+                "VALUE": [
+                    "number or text",
+                    "S^%4}x/IsRIU;cn62nOk"
+                ]
+            },
+            "shadow": false,
+            "topLevel": false
+        },
+        "s": {
+            "opcode": "operator_multiply",
+            "next": null,
+            "parent": "a",
+            "inputs": {
+                "NUM1": [
+                    3,
+                    [
+                        12,
+                        "i",
+                        "^qA,K!vhiB~$Gi+0i?VQ"
+                    ],
+                    [
+                        4,
+                        ""
+                    ]
+                ],
+                "NUM2": [
+                    1,
+                    [
+                        4,
+                        "40"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        },
+        "t": {
+            "opcode": "operator_multiply",
+            "next": null,
+            "parent": "a",
+            "inputs": {
+                "NUM1": [
+                    1,
+                    [
+                        4,
+                        "360"
+                    ]
+                ],
+                "NUM2": [
+                    1,
+                    [
+                        4,
+                        "2"
+                    ]
+                ]
+            },
+            "fields": {},
+            "shadow": false,
+            "topLevel": false
+        }
+    },
+    "comments": {},
+    "currentCostume": 0,
+    "costumes": [
+        {
+            "name": "costume2",
+            "bitmapResolution": 2,
+            "dataFormat": "png",
+            "assetId": "ad2803f9e599c4dbaef73545d65e44f8",
+            "md5ext": "ad2803f9e599c4dbaef73545d65e44f8.png",
+            "rotationCenterX": 480,
+            "rotationCenterY": 360
+        },
+        {
+            "name": "costume3",
+            "bitmapResolution": 1,
+            "dataFormat": "svg",
+            "assetId": "ea5892b6b3bc6dda00f9c426037fc6e5",
+            "md5ext": "ea5892b6b3bc6dda00f9c426037fc6e5.svg",
+            "rotationCenterX": 182,
+            "rotationCenterY": 182
+        }
+    ],
+    "sounds": [],
+    "volume": 100,
+    "visible": false,
+    "x": 0,
+    "y": 0,
+    "size": 100,
+    "direction": 90,
+    "draggable": false,
+    "rotationStyle": "all around"
+}
